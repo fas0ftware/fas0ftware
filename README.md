@@ -45,7 +45,7 @@ A short-video series where I show real coding progress, from first commit to wor
 
 Open to small projects and collaborations, especially automation, data tools and network utilities.
 
-- Email: your-anil.hyperborea@gmail.com
+- Email: anil.hyperborea@gmail.com
 - Website: coming soon
 
 ---
