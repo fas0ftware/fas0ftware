@@ -39,7 +39,7 @@ I build with AI assistance and focus on understanding what the code does, how th
 
 A short-video series where I show real coding progress, from first commit to working project. New posts and videos are on:
 
-- Instagram: [@YOUR_HANDLE](https://instagram.com/YOUR_HANDLE)
+- Instagram: [@fa.software](https://instagram.com/fa.software)
 - YouTube: [YOUR CHANNEL](https://youtube.com/@YOUR_CHANNEL)
 
 ## Work with me
