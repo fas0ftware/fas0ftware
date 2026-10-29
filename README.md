@@ -40,13 +40,12 @@ I build with AI assistance and focus on understanding what the code does, how th
 A short-video series where I show real coding progress, from first commit to working project. New posts and videos are on:
 
 - Instagram: [@fa.software](https://instagram.com/fa.software)
-- YouTube: [YOUR CHANNEL](https://youtube.com/@YOUR_CHANNEL)
 
 ## Work with me
 
 Open to small projects and collaborations, especially automation, data tools and network utilities.
 
-- Email: your-email@example.com
+- Email: your-anil.hyperborea@gmail.com
 - Website: coming soon
 
 ---
