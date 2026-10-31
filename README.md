@@ -18,20 +18,19 @@ I build practical software: automation, data tools, bots, network and security u
 
 ## Projects
 
-| Project | What it is | Status |
+| Project | What it does | Stack |
 |---|---|---|
-| [**Home Network Monitor**](https://github.com/fas0ftware/network-monitor) | Scans the local network, remembers every device, alerts on unknown ones, live web dashboard | Working, v1.0 in progress |
-| **Zarathustra** | Voice engine built on Edge TTS, used to voice FA Software videos | Working |
-| **Ariadne** | Phone task manager built around monthly, weekly and daily milestones | Planned |
-| **Hermes** | Python report automation tool | Planned |
-| **JUDA** | Smart-home digital assistant controlled from the phone | Long-term |
-| **Daedalus** | A system built on Claude that produces code with minimal manual work | Long-term |
+| [**Home Network Monitor**](https://github.com/fas0ftware/network-monitor) | Scans the local network, remembers every device, alerts on unknown ones, live web dashboard | Python, Scapy, SQLite, Flask, JavaScript |
+| [**Project_Heimdall**](https://github.com/fas0ftware/Project_Heimdall) | Stock dashboard with RSI signals, split-adjusted ROI simulation and split detection | Python, Streamlit, Plotly |
+| [**Project_Hugnin**](https://github.com/fas0ftware/Project_Hugnin) | Terminal scanner that flags overbought and oversold stocks using RSI | Python, yfinance |
+| [**Project_Dionysus**](https://github.com/fas0ftware/Project_Dionysus) | Reads a city's live weather and suggests a matching music mood | Python, Streamlit, OpenWeatherMap |
+| [**Zarathustra_TTS**](https://github.com/fas0ftware/Zarathustra_TTS) | Voice engine that turns long scripts into narrated audio | Python, Edge-TTS |
 
-More small tools (URL shortener, mini blog, port scanner) are on the list.
+**In the pipeline:** a port scanner, a phone task manager (Ariadne), report automation (Hermes), a smart-home assistant (JUDA) and the FA Software website.
 
 ## Tech I work with
 
-`Python` · `Scapy` · `SQLite` · `Flask` · `JavaScript` · `HTML/CSS` · `C` (learning) · `Git`
+`Python` · `Streamlit` · `Plotly` · `Scapy` · `Flask` · `SQLite` · `JavaScript` · `HTML/CSS` · `C` (learning) · `Git`
 
 I build with AI assistance and focus on understanding what the code does, how the parts connect and why it is designed that way.
 
