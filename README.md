@@ -22,12 +22,13 @@ I build practical software: automation, data tools, bots, network and security u
 |---|---|---|
 | [**Home Network Monitor**](https://github.com/fas0ftware/network-monitor) | Scans the local network, remembers every device, alerts on unknown ones, live web dashboard | Python, Scapy, SQLite, Flask, JavaScript |
 | [**Ariadne**](https://github.com/fas0ftware/ariadne) | Phone app that tracks your day and scores it: good habits earn points, bad ones cost points, and an hourly notification asks what you are doing right now | React Native, Expo |
+| [**Maze**](https://github.com/fas0ftware/maze) | Layered honeypot: leads password guessers through fake progress and growing delays, and logs every move (prototype, tested) | Python, Flask, SQLite |
 | [**Project_Heimdall**](https://github.com/fas0ftware/Project_Heimdall) | Stock dashboard with RSI signals, split-adjusted ROI simulation and split detection | Python, Streamlit, Plotly |
 | [**Project_Hugnin**](https://github.com/fas0ftware/Project_Hugnin) | Terminal scanner that flags overbought and oversold stocks using RSI | Python, yfinance |
 | [**Project_Dionysus**](https://github.com/fas0ftware/Project_Dionysus) | Reads a city's live weather and suggests a matching music mood | Python, Streamlit, OpenWeatherMap |
 | [**Zarathustra_TTS**](https://github.com/fas0ftware/Zarathustra_TTS) | Voice engine that turns long scripts into narrated audio | Python, Edge-TTS |
 
-**In the pipeline:** a port scanner, a phone task manager (Ariadne), report automation (Hermes), a smart-home assistant (JUDA) and the FA Software website.
+**In the pipeline:** report automation (Hermes), a smart-home assistant (JUDA) and the FA Software website.
 
 ## Tech I work with
 
