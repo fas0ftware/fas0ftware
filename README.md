@@ -18,21 +18,27 @@ I build practical software: automation, data tools, bots, network and security u
 
 ## Projects
 
-| Project | What it does | Stack |
-|---|---|---|
-| [**Home Network Monitor**](https://github.com/fas0ftware/network-monitor) | Scans the local network, remembers every device, alerts on unknown ones, live web dashboard | Python, Scapy, SQLite, Flask, JavaScript |
-| [**Ariadne**](https://github.com/fas0ftware/ariadne) | Phone app that tracks your day and scores it: good habits earn points, bad ones cost points, and an hourly notification asks what you are doing right now | React Native, Expo |
-| [**Maze**](https://github.com/fas0ftware/maze) | Layered honeypot: leads password guessers through fake progress and growing delays, and logs every move (prototype, tested) | Python, Flask, SQLite |
-| [**Project_Heimdall**](https://github.com/fas0ftware/Project_Heimdall) | Stock dashboard with RSI signals, split-adjusted ROI simulation and split detection | Python, Streamlit, Plotly |
-| [**Project_Hugnin**](https://github.com/fas0ftware/Project_Hugnin) | Terminal scanner that flags overbought and oversold stocks using RSI | Python, yfinance |
-| [**Project_Dionysus**](https://github.com/fas0ftware/Project_Dionysus) | Reads a city's live weather and suggests a matching music mood | Python, Streamlit, OpenWeatherMap |
-| [**Zarathustra_TTS**](https://github.com/fas0ftware/Zarathustra_TTS) | Voice engine that turns long scripts into narrated audio | Python, Edge-TTS |
+| Project | What it does | Stack | Version |
+|---|---|---|---|
+| [**Home Network Monitor**](https://github.com/fas0ftware/network-monitor) | Scans the home network, alerts on new devices and risky ports (desktop or phone push), activity timeline, hardened dashboard | Python, Scapy, SQLite, Flask | 2.0 |
+| [**Maze**](https://github.com/fas0ftware/maze) | Layered honeypot with a C engine: fake progress, growing delays, every move logged; passive attacker reports; Docker image | C, libsodium, Python, Flask | 0.3 |
+| [**Janus**](https://github.com/fas0ftware/janus) | Dependency-free TCP port scanner: IPv4/IPv6, CIDR, banner grabbing, JSON; clean under ASan, UBSan, TSan and valgrind | C11, POSIX, pthreads | 1.1 |
+| [**Ariadne**](https://github.com/fas0ftware/ariadne) | Phone app that scores your day with hourly check-ins, streaks, insights and backups | React Native, Expo, TypeScript | 1.1 |
+| [**Heimdall**](https://github.com/fas0ftware/Project_Heimdall) | Stock dashboard: RSI, MACD, moving-average crosses, risk metrics, lump sum vs. monthly investing | Python, Streamlit, Plotly | 2.0 |
+| [**Hugnin**](https://github.com/fas0ftware/Project_Hugnin) | RSI scanner for 109 stocks and cryptos, plus a private Telegram alert bot | Python, yfinance | 3.0 |
+| [**Orion**](https://github.com/fas0ftware/Project_Orion) | Price-drop alerts on Telegram for any shop page | Python, BeautifulSoup | 2.0 |
+| [**JUDA**](https://github.com/fas0ftware/JUDA) | Smart-home assistant with Turkish commands, roles, scenes and schedules | Python (stdlib only) | 0.2 |
+| [**Dionysus**](https://github.com/fas0ftware/Project_Dionysus) | Live weather of any city turned into a mood and a playlist | Python, Streamlit | 2.0 |
+| [**Zarathustra**](https://github.com/fas0ftware/Zarathustra_TTS) | Text-to-speech for long scripts, with subtitles | Python, Edge-TTS | 2.0 |
+| [**Ratatoskr**](https://github.com/fas0ftware/Project_Ratatoskr) | WhatsApp Web messages from the command line | Python, Selenium | 2.0 |
 
-**In the pipeline:** report automation (Hermes), a smart-home assistant (JUDA) and the FA Software website.
+Every repository has tests, CI with security scanning (bandit, pip-audit / npm audit, sanitizers for C) and the latest results as images in its README.
+
+**In the pipeline:** an automated quote-video channel (Prometheus produces, Hermes publishes), a Telegram coding assistant with a sandbox (Daedalus) and the FA Software website.
 
 ## Tech I work with
 
-`Python` · `Streamlit` · `Plotly` · `Scapy` · `Flask` · `SQLite` · `JavaScript` · `HTML/CSS` · `C` (learning) · `Git`
+`Python` · `C` · `TypeScript` · `React Native` · `Flask` · `Streamlit` · `SQLite` · `Docker` · `ffmpeg` · `GitHub Actions` · `Git`
 
 I build with AI assistance and focus on understanding what the code does, how the parts connect and why it is designed that way.
 
