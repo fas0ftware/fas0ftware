@@ -20,7 +20,7 @@ I build practical software: automation, data tools, bots, network and security u
 
 | Project | What it does | Stack | Version |
 |---|---|---|---|
-| [**Home Network Monitor**](https://github.com/fas0ftware/network-monitor) | Scans the home network, alerts on new devices and risky ports (desktop or phone push), activity timeline, hardened dashboard | Python, Scapy, SQLite, Flask | 2.0 |
+| [**Home Network Monitor**](https://github.com/fas0ftware/network-monitor) | Scans the home network, alerts on new devices and risky ports (desktop or phone push), activity timeline; a security advisor explains every open port and how to close it, with a network score | Python, Scapy, SQLite, Flask | 2.1 |
 | [**Maze**](https://github.com/fas0ftware/maze) | Layered honeypot with a C engine: fake progress, growing delays, every move logged; passive attacker reports; Docker image, production WSGI server | C, libsodium, Python, Flask | 0.3.1 |
 | [**Janus**](https://github.com/fas0ftware/janus) | Dependency-free TCP and UDP port scanner: host discovery, all hosts in one worker pool, IPv4/IPv6, CIDR, banners, mDNS/SSDP/NetBIOS probes, JSON; clean under ASan, UBSan, TSan and valgrind | C11, POSIX, pthreads | 1.5 |
 | [**Ariadne**](https://github.com/fas0ftware/ariadne) | Phone app that scores your day with hourly check-ins, streaks, insights and backups | React Native, Expo, TypeScript | 1.1 |
