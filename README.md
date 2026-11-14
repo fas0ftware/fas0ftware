@@ -20,21 +20,22 @@ I build practical software: automation, data tools, bots, network and security u
 
 | Project | What it does | Stack | Version |
 |---|---|---|---|
-| [**Lynceus**](https://github.com/fas0ftware/lynceus) | Scans the home network, alerts on new devices and risky ports (desktop or phone push), activity timeline; a security advisor explains every open port and how to close it, with a network score | Python, Scapy, SQLite, Flask | 2.1 |
+| [**Lynceus**](https://github.com/fas0ftware/lynceus) | Home network watch (formerly Home Network Monitor): finds every device, alerts on new devices and risky ports (desktop or phone push), activity timeline; a security advisor explains every open port and how to close it, with a network score | Python, Scapy, SQLite, Flask | 2.2 |
 | [**Maze**](https://github.com/fas0ftware/maze) | Layered honeypot with a C engine: fake progress, growing delays, every move logged; passive attacker reports; Docker image, production WSGI server | C, libsodium, Python, Flask | 0.3.1 |
-| [**Janus**](https://github.com/fas0ftware/janus) | Dependency-free TCP and UDP port scanner with service and version detection, TLS certificate checks and STARTTLS; host discovery, one worker pool for all hosts, adaptive timeouts, IPv4/IPv6, CIDR, JSON; fuzzed parsers, clean under ASan, UBSan, TSan and valgrind | C11, POSIX, pthreads | 1.9 |
-| [**Ariadne**](https://github.com/fas0ftware/ariadne) | Phone app that scores your day with hourly check-ins, streaks, insights and backups | React Native, Expo, TypeScript | 1.1 |
+| [**Janus**](https://github.com/fas0ftware/janus) | Dependency-free TCP and UDP port scanner with a browser interface (Janus Web), service and version detection, TLS certificate checks and STARTTLS; host discovery, one worker pool for all hosts, adaptive timeouts, IPv4/IPv6, CIDR, JSON; fuzzed parsers, clean under ASan, UBSan, TSan and valgrind | C11, POSIX, pthreads | 1.9 |
+| [**Ariadne**](https://github.com/fas0ftware/ariadne) | Phone app that scores your day with hourly check-ins, streaks, insights and backups | React Native, Expo, TypeScript | 1.1.1 |
 | [**Heimdall**](https://github.com/fas0ftware/Project_Heimdall) | Stock dashboard: RSI, MACD, moving-average crosses, risk metrics, lump sum vs. monthly investing | Python, Streamlit, Plotly | 2.0 |
-| [**Hugnin**](https://github.com/fas0ftware/Project_Hugnin) | RSI scanner for 109 stocks and cryptos, plus a private Telegram alert bot | Python, yfinance | 3.0 |
-| [**Orion**](https://github.com/fas0ftware/Project_Orion) | Price-drop alerts on Telegram for any shop page | Python, BeautifulSoup | 2.0 |
+| [**Hugnin**](https://github.com/fas0ftware/Project_Hugnin) | RSI scanner for 109 stocks and cryptos: an RSI map in the browser, a terminal scanner and a private Telegram alert bot | Python, yfinance | 3.1 |
+| [**Orion**](https://github.com/fas0ftware/Project_Orion) | Price-drop alerts on Telegram for any shop page; the watchlist with price history in the browser | Python, BeautifulSoup | 2.1 |
 | [**JUDA**](https://github.com/fas0ftware/JUDA) | Smart-home assistant with Turkish commands, roles, scenes and schedules | Python (stdlib only) | 0.2.2 |
 | [**Dionysus**](https://github.com/fas0ftware/Project_Dionysus) | Live weather of any city turned into a mood and a playlist | Python, Streamlit | 2.0 |
-| [**Zarathustra**](https://github.com/fas0ftware/Zarathustra_TTS) | Text-to-speech for long scripts, with subtitles | Python, Edge-TTS | 2.0 |
-| [**Ratatoskr**](https://github.com/fas0ftware/Project_Ratatoskr) | WhatsApp Web messages from the command line | Python, Selenium | 2.0 |
+| [**Zarathustra**](https://github.com/fas0ftware/Zarathustra_TTS) | Text-to-speech studio for long scripts: 300+ neural voices, timed subtitles, a narration library in the browser | Python, Edge-TTS | 2.1 |
+| [**Ratatoskr**](https://github.com/fas0ftware/Project_Ratatoskr) | WhatsApp Web messages from the browser or the command line: preview, scheduling, dry runs | Python, Selenium | 2.1 |
+| [**Daedalus**](https://github.com/fas0ftware/daedalus) | Coding assistant on Telegram and in the browser: Claude writes Python and runs it in a locked-down Docker sandbox | Python, Claude API, Docker | 0.2 |
 
 Every repository has tests, CI with security scanning (bandit, pip-audit / npm audit, sanitizers for C) and the latest results as images in its README.
 
-**In the pipeline:** an automated quote-video channel (Prometheus produces, Hermes publishes), a Telegram coding assistant with a sandbox (Daedalus) and the FA Software website.
+**In the pipeline:** an automated quote-video channel (Prometheus produces, Hermes publishes), and the FA Software website.
 
 ## Tech I work with
 
