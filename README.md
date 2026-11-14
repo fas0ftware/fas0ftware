@@ -35,7 +35,7 @@ I build practical software: automation, data tools, bots, network and security u
 
 Every repository has tests, CI with security scanning (bandit, pip-audit / npm audit, sanitizers for C) and the latest results as images in its README.
 
-**In the pipeline:** an automated quote-video channel (Prometheus produces, Hermes publishes), and the FA Software website.
+**In the pipeline:** an automated quote-video channel (Prometheus produces, Hermes publishes).
 
 ## Tech I work with
 
@@ -54,7 +54,7 @@ A short-video series where I show real coding progress, from first commit to wor
 Open to small projects and collaborations, especially automation, data tools and network utilities.
 
 - Email: anil.hyperborea@gmail.com
-- Website: coming soon
+- Website: [fas0ftware.github.io/FA_Software_web](https://fas0ftware.github.io/FA_Software_web/)
 
 ---
 
