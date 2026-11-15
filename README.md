@@ -33,7 +33,7 @@ I build practical software: automation, data tools, bots, network and security u
 | [**Ratatoskr**](https://github.com/fas0ftware/Project_Ratatoskr) | WhatsApp Web messages from the browser or the command line: preview, scheduling, dry runs | Python, Selenium | 2.1 |
 | [**Daedalus**](https://github.com/fas0ftware/daedalus) | Coding assistant on Telegram and in the browser: Claude writes Python and runs it in a locked-down Docker sandbox | Python, Claude API, Docker | 0.2 |
 | [**Mnemosyne**](https://github.com/fas0ftware/mnemosyne) | Encrypted, deduplicating backups that test their own restores: content-defined chunks, keyed BLAKE3 ids, Argon2id-wrapped keys, restore that treats snapshots as untrusted, hourly timers to two disks, snapshot diff, a local app to browse and verify, a paper recovery code | Rust, RustCrypto, zstd | 0.4 |
-| [**Olympos**](https://github.com/fas0ftware/olympos) | One page for every project and home system: stages, unpushed work, CI, backups, network watch, disks and sites, problems first | Python (stdlib only), GitHub GraphQL | 0.3 |
+| [**Olympos**](https://github.com/fas0ftware/olympos) | One page for every project and home system: stages, unpushed work, CI, backups, network watch, disks and sites, problems first | Python (stdlib only), GitHub GraphQL | 0.4 |
 | [**Pythia**](https://github.com/fas0ftware/pythia) | DNS filter for the whole home network: block lists, your own allow/block rules, DNS over TLS upstream, flood and open-resolver guards, a laptop that serves only itself away from home, per-device profiles with a bedtime | Python (stdlib only), asyncio | 0.3 |
 
 Every repository has tests, CI with security scanning (bandit, pip-audit / npm audit, sanitizers for C) and the latest results as images in its README.
