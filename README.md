@@ -20,7 +20,7 @@ I build practical software: automation, data tools, bots, network and security u
 
 | Project | What it does | Stack | Version |
 |---|---|---|---|
-| [**Lynceus**](https://github.com/fas0ftware/lynceus) | Home network watch (formerly Home Network Monitor): finds every device, alerts on new devices and risky ports (desktop or phone push), activity timeline; a security advisor explains every open port and how to close it, with a network score | Python, Scapy, SQLite, Flask | 2.2 |
+| [**Lynceus**](https://github.com/fas0ftware/lynceus) | Home network watch (formerly Home Network Monitor): finds every device, alerts on new devices and risky ports (desktop or phone push), activity timeline; a security advisor explains every open port and how to close it, with a network score | Python, Scapy, SQLite, Flask, Docker | 2.5 |
 | [**Maze**](https://github.com/fas0ftware/maze) | Layered honeypot with a C engine: fake progress, growing delays, every move logged; passive attacker reports; Docker image, production WSGI server | C, libsodium, Python, Flask | 0.3.1 |
 | [**Janus**](https://github.com/fas0ftware/janus) | Dependency-free TCP and UDP port scanner with a browser interface (Janus Web), service and version detection, TLS certificate checks and STARTTLS; host discovery, one worker pool for all hosts, adaptive timeouts, IPv4/IPv6, CIDR, JSON; fuzzed parsers, clean under ASan, UBSan, TSan and valgrind | C11, POSIX, pthreads | 1.9 |
 | [**Ariadne**](https://github.com/fas0ftware/ariadne) | Phone app that scores your day with hourly check-ins, streaks, insights and backups | React Native, Expo, TypeScript | 1.1.1 |
@@ -33,7 +33,7 @@ I build practical software: automation, data tools, bots, network and security u
 | [**Ratatoskr**](https://github.com/fas0ftware/Project_Ratatoskr) | WhatsApp Web messages from the browser or the command line: preview, scheduling, dry runs | Python, Selenium | 2.1 |
 | [**Daedalus**](https://github.com/fas0ftware/daedalus) | Coding assistant on Telegram and in the browser: Claude writes Python and runs it in a locked-down Docker sandbox | Python, Claude API, Docker | 0.2 |
 | [**Mnemosyne**](https://github.com/fas0ftware/mnemosyne) | Encrypted, deduplicating backups that test their own restores: content-defined chunks, keyed BLAKE3 ids, Argon2id-wrapped keys, restore that treats snapshots as untrusted, hourly timers to two disks, snapshot diff | Rust, RustCrypto, zstd | 0.2 |
-| [**Olympos**](https://github.com/fas0ftware/olympos) | One page for every project and home system: stages, unpushed work, CI, backups, network watch, disks and sites, problems first | Python (stdlib only), GitHub GraphQL | 0.2 |
+| [**Olympos**](https://github.com/fas0ftware/olympos) | One page for every project and home system: stages, unpushed work, CI, backups, network watch, disks and sites, problems first | Python (stdlib only), GitHub GraphQL | 0.3 |
 | [**Pythia**](https://github.com/fas0ftware/pythia) | DNS filter for the whole home network: block lists, your own allow/block rules, DNS over TLS upstream, flood and open-resolver guards, a laptop that serves only itself away from home | Python (stdlib only), asyncio | 0.2 |
 
 Every repository has tests, CI with security scanning (bandit, pip-audit / npm audit, sanitizers for C) and the latest results as images in its README.
