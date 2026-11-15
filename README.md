@@ -32,6 +32,8 @@ I build practical software: automation, data tools, bots, network and security u
 | [**Zarathustra**](https://github.com/fas0ftware/Zarathustra_TTS) | Text-to-speech studio for long scripts: 300+ neural voices, timed subtitles, a narration library in the browser | Python, Edge-TTS | 2.1 |
 | [**Ratatoskr**](https://github.com/fas0ftware/Project_Ratatoskr) | WhatsApp Web messages from the browser or the command line: preview, scheduling, dry runs | Python, Selenium | 2.1 |
 | [**Daedalus**](https://github.com/fas0ftware/daedalus) | Coding assistant on Telegram and in the browser: Claude writes Python and runs it in a locked-down Docker sandbox | Python, Claude API, Docker | 0.2 |
+| [**Mnemosyne**](https://github.com/fas0ftware/mnemosyne) | Encrypted, deduplicating backups that test their own restores: content-defined chunks, keyed BLAKE3 ids, Argon2id-wrapped keys, restore that treats snapshots as untrusted, hourly timers to two disks | Rust, RustCrypto, zstd | 0.1 |
+| [**Olympos**](https://github.com/fas0ftware/olympos) | One page for every project and home system: stages, unpushed work, CI, backups, network watch, disks and sites, problems first | Python (stdlib only), GitHub GraphQL | 0.1 |
 
 Every repository has tests, CI with security scanning (bandit, pip-audit / npm audit, sanitizers for C) and the latest results as images in its README.
 
