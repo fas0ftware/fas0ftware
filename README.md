@@ -38,6 +38,7 @@ I build practical software: automation, data tools, bots, network and security u
 | [**Themis**](https://github.com/fas0ftware/themis) | Watches a laptop's system journal: failed logins at the lock screen, sudo and SSH, brute force, a new USB device that types like a keyboard (BadUSB), services that run for the first time; learns what is normal first, phone alerts, no root | Python (stdlib only), journalctl, SQLite | 0.1 |
 | [**Hestia**](https://github.com/fas0ftware/hestia) | Laptop health check: disk space and I/O errors, temperatures against each sensor's limits, battery wear, wireless-device batteries, memory, load, failed services, a pending restart; alerts only when something changes | Rust | 0.1 |
 | [**Charon**](https://github.com/fas0ftware/charon) | Files between laptop and phone over your own network: a QR code, a secret one-time link that expires, TLS with a kept self-signed certificate, an upload page the other way round; a small HTTP server on rustls | Rust, rustls, ring | 0.1 |
+| [**Iris**](https://github.com/fas0ftware/iris) | One inbox for every home tool's notifications, speaking ntfy's protocol: repeats folded, quiet hours with a morning digest, per-tool minimums, delivery to phone and desktop with retries that never double | Python (stdlib only) | 0.1 |
 
 Every repository has tests, CI with security scanning (bandit, pip-audit / npm audit / cargo audit, sanitizers for C) and the latest results as images in its README.
 
