@@ -33,16 +33,19 @@ I build practical software: automation, data tools, bots, network and security u
 | [**Ratatoskr**](https://github.com/fas0ftware/Project_Ratatoskr) | WhatsApp Web messages from the browser or the command line: preview, scheduling, dry runs | Python, Selenium | 2.1 |
 | [**Daedalus**](https://github.com/fas0ftware/daedalus) | Coding assistant on Telegram and in the browser: Claude writes Python and runs it in a locked-down Docker sandbox | Python, Claude API, Docker | 0.2 |
 | [**Mnemosyne**](https://github.com/fas0ftware/mnemosyne) | Encrypted, deduplicating backups that test their own restores: content-defined chunks, keyed BLAKE3 ids, Argon2id-wrapped keys, restore that treats snapshots as untrusted, hourly timers to two disks, snapshot diff, a local app to browse and verify, a paper recovery code | Rust, RustCrypto, zstd | 0.4 |
-| [**Olympos**](https://github.com/fas0ftware/olympos) | One page for every project and home system: stages, unpushed work, CI, backups, network watch, disks and sites, problems first | Python (stdlib only), GitHub GraphQL | 0.4 |
+| [**Olympos**](https://github.com/fas0ftware/olympos) | One page for every project and home system: stages, unpushed work, CI, backups, network watch, DNS filter, laptop security, events and health, disks and sites, problems first | Python (stdlib only), GitHub GraphQL | 0.7 |
 | [**Pythia**](https://github.com/fas0ftware/pythia) | DNS filter for the whole home network: block lists, your own allow/block rules, DNS over TLS upstream, flood and open-resolver guards, a laptop that serves only itself away from home, per-device profiles with a bedtime | Python (stdlib only), asyncio | 0.3 |
+| [**Themis**](https://github.com/fas0ftware/themis) | Watches a laptop's system journal: failed logins at the lock screen, sudo and SSH, brute force, a new USB device that types like a keyboard (BadUSB), services that run for the first time; learns what is normal first, phone alerts, no root | Python (stdlib only), journalctl, SQLite | 0.1 |
+| [**Hestia**](https://github.com/fas0ftware/hestia) | Laptop health check: disk space and I/O errors, temperatures against each sensor's limits, battery wear, wireless-device batteries, memory, load, failed services, a pending restart; alerts only when something changes | Rust | 0.1 |
+| [**Charon**](https://github.com/fas0ftware/charon) | Files between laptop and phone over your own network: a QR code, a secret one-time link that expires, TLS with a kept self-signed certificate, an upload page the other way round; a small HTTP server on rustls | Rust, rustls, ring | 0.1 |
 
-Every repository has tests, CI with security scanning (bandit, pip-audit / npm audit, sanitizers for C) and the latest results as images in its README.
+Every repository has tests, CI with security scanning (bandit, pip-audit / npm audit / cargo audit, sanitizers for C) and the latest results as images in its README.
 
 **In the pipeline:** an automated quote-video channel (Prometheus produces, Hermes publishes).
 
 ## Tech I work with
 
-`Python` · `C` · `TypeScript` · `React Native` · `Flask` · `Streamlit` · `SQLite` · `Docker` · `ffmpeg` · `GitHub Actions` · `Git`
+`Python` · `Rust` · `C` · `TypeScript` · `React Native` · `Flask` · `Streamlit` · `SQLite` · `Docker` · `ffmpeg` · `GitHub Actions` · `Git`
 
 I build with AI assistance and focus on understanding what the code does, how the parts connect and why it is designed that way.
 
